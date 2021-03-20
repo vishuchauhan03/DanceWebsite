@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title vishu dance academy 
+    block scripts
+    block style   
+  body
+    nav#navbar.top 
+        ul 
+            div#logo 
+                img(src="../static/img/logo.png")
+                | VDA            
+            li #[a(href="/") home] 
+            li #[a(href="/") about ]
+            li #[a(href="/") services] 
+            li #[a(href="/") class info] 
+            li #[a(href="/contact") contact us ]
+    block content
+    footer#footer 
+        | copyright © 2019 vishudanceacademy.com | all rights reserved    

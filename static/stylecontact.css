@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Roboto+Mono:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 77vh;
+    margin: 43px 0;
+
+}
+
+.container h1 {
+    font-family: 'Ranchers', cursive;
+    font-size: 34px;
+}
+
+.myform{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.myinput{
+    font-size: 16px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid rgb(73, 71, 71);
+    border-radius: 12px;
+    outline: none;
+
+}
+.btn{
+    padding: 6px 16px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    background: rgb(32, 64, 124);
+    cursor: pointer;
+    font-family: 'Ranchers', cursive;
+    outline: none;
+}
